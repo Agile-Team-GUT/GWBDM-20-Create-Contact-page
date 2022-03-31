@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .contact-form,
+        .info {
+            padding: 40px;
+        }
+
+        .contact-info {
+            line-height: 40px;
+        }
+
+        .map-info {
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 2 -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">GUT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="justify-content: end;">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Giới thiệu</a>
+                    <a class="nav-item nav-link" href="#">Dịch vụ</a>
+                    <a class="nav-item nav-link" href="#">Liên hệ</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 3 -->
+    <div class="contact-form">
+        <form>
+            <h4 style="padding-bottom: 20px;">Get in touch with us by filling contact form below</h4>
+            <div class="form-row">
+                <div class="form-group col-md-6" style="padding-right: 40px ;">
+
+                    <input type="email" class="form-control" id="inputName" placeholder="*Enter your full name">
+                </div>
+                <div class="form-group col-md-6" style="padding-left: 40px;">
+
+                    <input type="password" class="form-control" id="inputEmail" placeholder="*Enter your email address">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputSubject" placeholder="Enter your subject">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea" rows="10"
+                    placeholder="*Your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+    </div>
+
+    <div class="info row">
+        <div class="contact-info col-6">
+            <h5>Thông tin công ty</h5>
+            <h3><b>Công ty GUT</b></h3>
+            <P>GPĐKKD số 41020980 do Sở KHĐT TP.Hồ Chí Minh cấp ngày 25/03/2004
+                <br>
+                Địa chỉ VP: Tòa nhà MWG, Lô T2-1.2, Đường D1, Khu Công Nghệ Cao, P.Tân Phú, Q.9, TP.Hồ Chí Minh
+                <br>
+                Điện thoại: <span style="color: rgb(255, 34, 34);">(028) 38 125 960</span>
+                <br>
+                Fax: <span style="color: rgb(255, 34, 34);">028 38 125 961</span>
+                <br>
+                Email : <a href="mailto:cskh@gut.com.vn">cskh@gut.com.vn</a>
+                <br>
+                Tổng đài khiếu nại: <span style="color: rgb(255, 34, 34);">1800.1063</span>
+            </P>
+
+        </div>
+        <div class="map-info col-6">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d979.6171914801357!2d106.7971172!3d10.8519064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527327468fff7%3A0x7e7d9a5c638bdb95!2zVMOyYSBuaMOgIE1XRyAtIENUQ1AgVGjhur8gR2nhu5tpIERpIMSQ4buZbmc!5e0!3m2!1sen!2s!4v1546245923366"
+                width="260" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
